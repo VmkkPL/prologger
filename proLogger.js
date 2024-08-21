@@ -1,5 +1,5 @@
 const winston = require('winston');
-const logFile = winston.createLogger({transports: [    new winston.transports.File({ filename: '../../logs/logs.txt' }),],});
+const logFile = winston.createLogger({transports: [    new winston.transports.File({ filename: 'logs.txt' }),],});
 
 function logger(type, content, color, logToFile){
     let loggerPrefix = '';
