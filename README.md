@@ -27,8 +27,8 @@ logger("success", "Databases connected and tables created!", "none", true)
 
 Przykład #2
 ```js
-logger(null, "            application name", "red", false);
-logger(null, "                v0.0.1", "gray", false);
+logger(null, "application name", "red", false);
+logger(null, "v0.0.1", "gray", false);
 ```
 ![image](https://github.com/user-attachments/assets/782aa534-6f7a-4ea5-94af-bc0a7305b8fa)
 
