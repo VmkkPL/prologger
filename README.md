@@ -4,12 +4,12 @@
 
 Za pomocą tego pliku możesz w prosty sposób wygenerować logi do pliku i konsoli.
 
-**Wtyczka wymagana do działania:** `npm i winstone`
+**Wtyczka wymagana do działania:** `npm i winston`
 
 ## Sposób użycia
 
 ```js
-logger(type, content, color, logToFle);
+logger(type, content, color, logToFile);
 ```
 Wyjaśnienie:
 - `type` - Typ wiadomości. Dostępne opcje: warn, warn-deny, deny, success, success-warn, info, log, none (brak prefixu)
